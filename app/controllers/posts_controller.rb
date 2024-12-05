@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# This is the top level post controller comment
 class PostsController < ApplicationController
   before_action :set_post, only: %i[show edit update destroy]
 
